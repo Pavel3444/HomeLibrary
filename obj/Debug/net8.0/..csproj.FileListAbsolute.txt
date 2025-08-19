@@ -7,6 +7,7 @@
 /Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..AssemblyInfoInputs.cache
 /Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..AssemblyInfo.cs
 /Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..csproj.CoreCompileInputs.cache
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..sourcelink.json
 /Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/HomeLibrary.dll
 /Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/refint/HomeLibrary.dll
 /Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/HomeLibrary.pdb
