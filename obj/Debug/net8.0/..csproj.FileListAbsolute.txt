@@ -1,0 +1,14 @@
+/Users/pavelburikov/RiderProjects/HomeLibrary/bin/Debug/net8.0/HomeLibrary
+/Users/pavelburikov/RiderProjects/HomeLibrary/bin/Debug/net8.0/HomeLibrary.deps.json
+/Users/pavelburikov/RiderProjects/HomeLibrary/bin/Debug/net8.0/HomeLibrary.runtimeconfig.json
+/Users/pavelburikov/RiderProjects/HomeLibrary/bin/Debug/net8.0/HomeLibrary.dll
+/Users/pavelburikov/RiderProjects/HomeLibrary/bin/Debug/net8.0/HomeLibrary.pdb
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..GeneratedMSBuildEditorConfig.editorconfig
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..AssemblyInfoInputs.cache
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..AssemblyInfo.cs
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..csproj.CoreCompileInputs.cache
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/HomeLibrary.dll
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/refint/HomeLibrary.dll
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/HomeLibrary.pdb
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/..genruntimeconfig.cache
+/Users/pavelburikov/RiderProjects/HomeLibrary/obj/Debug/net8.0/ref/HomeLibrary.dll

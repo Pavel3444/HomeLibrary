@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "b/4YZfTokdc=",
+  "success": true,
+  "projectFilePath": "/Users/pavelburikov/RiderProjects/HomeLibrary/..csproj",
+  "expectedPackageFiles": [
+    "/Users/pavelburikov/.nuget/packages/microsoft.netcore.app.ref/8.0.14/microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/pavelburikov/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.14/microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "/Users/pavelburikov/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.14/microsoft.netcore.app.host.osx-arm64.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
