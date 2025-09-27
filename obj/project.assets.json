@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pavelburikov/RiderProjects/HomeLibrary/..csproj",
+      "projectUniqueName": "/Users/pavelburikov/RiderProjects/HomeLibrary/HomeLibrary.csproj",
       "projectName": "HomeLibrary",
-      "projectPath": "/Users/pavelburikov/RiderProjects/HomeLibrary/..csproj",
+      "projectPath": "/Users/pavelburikov/RiderProjects/HomeLibrary/HomeLibrary.csproj",
       "packagesPath": "/Users/pavelburikov/.nuget/packages/",
       "outputPath": "/Users/pavelburikov/RiderProjects/HomeLibrary/obj/",
       "projectStyle": "PackageReference",
