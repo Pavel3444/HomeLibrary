@@ -1,4 +1,5 @@
-﻿using HomeLibrary.Ui;
+﻿using HomeLibrary.Services;
+using HomeLibrary.Ui;
 
 namespace HomeLibrary;
 
@@ -6,7 +7,8 @@ public class Program
 {
  public static void Main()
  {
-  
- Menu.StartMenu();
+ var library = new BookStore(); 
+ var menu = new Menu(library);
+ menu.StartMenu();
  }
 }

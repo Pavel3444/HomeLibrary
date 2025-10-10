@@ -1,8 +1,12 @@
+using HomeLibrary.Models;
+using HomeLibrary.Services;
+
 namespace HomeLibrary.Ui;
 
-public static class Menu
+public class Menu(BookStore library)
 {
-    public static void StartMenu()
+    private readonly BookStore _library = library; 
+    public void StartMenu()
     {
         var isRepeat = true;
         while (isRepeat)
@@ -22,21 +26,19 @@ public static class Menu
                           """);
         return Console.ReadLine() ?? string.Empty;
     }
-    private static bool GetUserInput(string input)
+    private bool GetUserInput(string input)
     {
         switch (input)
         {
             case "1":
-                Console.WriteLine("тут в будущем перейдем к созданию новой книги");
-                Console.WriteLine("логику возврата в меню считал логичным реализовать в будущих методах, но ИИ не принимает задание если тут не будет true, так что считаем что типа реализовали");
+                var newBook = BookInputService.ReadBookFromConsole();
+                _library.AddBook(newBook);
                 return true;
             case "2":
-                Console.WriteLine("тут в будущем перейдем к показу списка книг");
-                Console.WriteLine("логику возврата в меню считал логичным реализовать в будущих методах, но ИИ не принимает задание если тут не будет true, так что считаем что типа реализовали");
-
+                _library.ShowBooks();
                 return true;
             case "3":
-                Console.WriteLine("Тут выход");
+               Environment.Exit(0);
                 return false;
             default:
                 Console.WriteLine("ВВедена херня, попробуйте еще раз");
