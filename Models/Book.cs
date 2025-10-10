@@ -18,4 +18,10 @@ public class Book(string title, string author, int year, string isbn)
                 """;
 
     }
+
+    public string[] ConvertBookForLibrary()
+    {
+        var resArray = new[] { Title, Author, Isbn, Year.ToString()  };
+        return resArray;
+    }
 }

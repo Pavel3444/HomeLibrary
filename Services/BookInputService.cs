@@ -19,6 +19,7 @@ public static class BookInputService
 
         return new Book(title, author, year, isbn);
     }
+    
     private static int GetValidYear()
     {
         while (true)
