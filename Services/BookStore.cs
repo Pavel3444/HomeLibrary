@@ -37,4 +37,24 @@ public class BookStore
         }
     }
     
+        public void FindBook(string param)
+        {
+             for (var i = 0; i < _currentBookIndex; i++)
+            {
+                var bookData = new string[4];
+        
+                 for (var j = 0; j < 4; j++)
+                {
+                    bookData[j] = _books[i, j];
+                }
+        
+                if (bookData.Contains(param))
+                {
+                    var yearValue = int.Parse(bookData[3]);
+                    var book = new Book(bookData[0], bookData[1], yearValue, bookData[2]);
+                    Console.WriteLine(book);
+                }
+            }
+        }
+    
 }
