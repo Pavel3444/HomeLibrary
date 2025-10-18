@@ -22,7 +22,8 @@ public class Menu(BookStore library)
                           Menu:
                           [1] Добавить книгу
                           [2] Показать все книги
-                          [3] Выйти
+                          [3] Найти книгу
+                          [4] Выйти
                           """);
         return Console.ReadLine() ?? string.Empty;
     }
@@ -38,6 +39,14 @@ public class Menu(BookStore library)
                 _library.ShowBooks();
                 return true;
             case "3":
+                Console.WriteLine("Введите название книги, автора, год издания или ISBN");
+                var title = Console.ReadLine();
+                if(title == null)
+                    Console.WriteLine("Not found");
+                else
+                    _library.FindBook(title);
+                return true;
+            case "4":
                Environment.Exit(0);
                 return false;
             default:
