@@ -3,9 +3,9 @@ using HomeLibrary.Services;
 
 namespace HomeLibrary.Ui;
 
-public class Menu(BookStore library)
+public class Menu(Library library)
 {
-    private readonly BookStore _library = library; 
+    private readonly Library _library = library; 
     public void StartMenu()
     {
         var isRepeat = true;

@@ -2,7 +2,7 @@ using HomeLibrary.Models;
 
 namespace HomeLibrary.Services;
 
-public class BookStore
+public class Library
 {
     private readonly string[,] _books = new string[5, 4];
     private int _currentBookIndex;
